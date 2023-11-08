@@ -17,7 +17,7 @@ implementations
 5. Binary trees: different types, traversals, properties, etc.
 
 
-6. Binary search trees
+6. Binary search trees - https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 • Implementations
 • Operations including rotations
 • The Comparable interface and compareTo method
