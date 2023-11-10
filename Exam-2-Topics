@@ -1,0 +1,36 @@
+--Topics-- 
+
+1. Linked implementations of stacks & queues: Even though array-based implementations of stacks and
+queues aren’t included, you are still expected to be able to compare between the two types of
+implementations
+
+
+2. Recursion including linear and binary search
+
+
+3. Backtracking
+
+
+4. Recursive implementations of linked lists (+ general understanding of varieties of lists )
+
+
+5. Binary trees: different types, traversals, properties, etc.
+
+
+6. Binary search trees - https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+• Implementations
+• Operations including rotations
+• The Comparable interface and compareTo method
+
+
+7. Other balanced search trees (general understanding) & tree rotations
+
+
+8. Building Iterators for linked structures
+
+
+Labs
+1. Lab 5: Implementing Linked Stacks & Queues
+2. Lab 6: The N-Queens Problem
+3. Lab 7: Implementing a Linked Indexed List
+4. Lab 8: Implementing and Using Binary Search Trees
