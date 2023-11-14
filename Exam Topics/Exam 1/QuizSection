@@ -1,0 +1,47 @@
+public class QuizSection<E extends Comparable<E>> {
+    private class Node {
+        E data;
+        Node left, right;
+
+        public Node(E data) {
+            this.data = data;
+            left = null;
+            right = null;
+        }
+    }
+
+    private Node root;
+
+    public BinarySearchTree() {
+        root = null;
+    }
+
+    public boolean add(E value) {
+        if (root == null) {
+            root = new Node(value);
+            return true;
+        }
+        return addRecursive(root, value);
+    }
+
+    private boolean addRecursive(Node current, E value) {
+        if (value.compareTo(current.data) < 0) {
+            if (current.left == null) {
+                current.left = new Node(value);
+                return true;
+            }
+            return addRecursive(current.left, value);
+        } else if (value.compareTo(current.data) > 0) {
+            if (current.right == null) {
+                current.right = new Node(value);
+                return true;
+            }
+            return addRecursive(current.right, value);
+        } else {
+            // value already exists
+            return false;
+        }
+    }
+    
+    // ... other methods like contains(), preOrderTraverse() ...
+}
