@@ -1,0 +1,17 @@
+2D
+Basic Funcitons of the game:
+    Map and player
+    Scoresheet
+    input handling
+    enttity creation
+Display Funcitons:
+    graphics/visualizations
+    frame iterator
+Game mechanics:
+    player movement & collision dectection
+    win/lose conditionals
+    graph implementation of the game maps/level progression
+    Shop implementation
+Game world:
+    occational stage stlye change
+    
